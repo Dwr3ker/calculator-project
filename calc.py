@@ -1,14 +1,4 @@
-# Three step process to save to GitHub
-# 1. Add the files that you'd want to save 
-git add [filename]
-OR
-git add. #adds all files 
+weight = int(input("what is your weight?"))
+print("You weight " + str(weight / 2.2) + " in kilograms.")
 
-# 2. Name tis saved version
-git commit -m "name"
-
-# 3. Push the save to github
-git push
-
-print("hi!")
 
